@@ -37,5 +37,5 @@ atlas_conn <- mongo(
   url        = Sys.getenv("ATLAS_URL")
 )
 
-atlas_conn$insert(data)
+atlas_conn$insert(news_data1)
 rm(atlas_conn)
