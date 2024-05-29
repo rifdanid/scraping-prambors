@@ -28,5 +28,3 @@ news_data1 <- data.frame(
   Date = dates,
   Link = links,
   stringsAsFactors = FALSE)
-  
-view(news_data1) 
